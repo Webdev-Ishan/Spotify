@@ -1,5 +1,22 @@
-body{
+*{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+}
+
+body{
+background-color: black;
+color: white;
+}
+
+
+nav{
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+    height: 65px;
+    justify-content: space-evenly;
 }
